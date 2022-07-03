@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'ElegantIcons';
+    src: url('elegant_font/HTML CSS/fonts/ElegantIcons.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'sans-serif';
+}
+
+header {
+    background-color: rgb(62, 61, 75);
+    border-top: 0.35rem solid aqua;
+}
+
+.block-header {
+    padding: 2rem 0 1rem;
+}
+
+.block-header .icon_documents {
+    font-family: 'ElegantIcons';
+    font-size: 2rem;
+    color: aqua;
+}
+
+.block-header .text-up {
+    color: aqua;
+}
+
+.block-header .text-bold {
+    color: white;
+}
+
+.text-line {
+    padding-bottom: 1.5rem;
+}
+
+.text-line p {
+    font-size: 1.2rem;
+    color: rgb(224, 224, 224);
+}
+
+.text-line .icon_heart, footer .icon_heart {
+    font-family: 'ElegantIcons';
+    color: rgb(211, 67, 91);
+}
+
+.block-social-twitter {
+    padding-bottom: 3rem;
+}
+
+.block-social-twitter .btn-twitter {
+    font-size: 0.8rem;
+    color: white;
+    background-color: rgb(0, 174, 255);
+    border-radius: 3rem;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+
+.block-social-twitter .btn-twitter:hover {
+    background-color: rgb(0, 156, 228);
+}
+
+.block-social-twitter .social_twitter {
+    font-family: 'ElegantIcons';
+    color: white;
+}
+
+.top-main-block h2 {
+    padding-top: 3rem;
+}
+
+.text-main-block {
+    margin: 0 auto;
+    max-width: 53rem;
+}
+
+.text-main-block p {
+    padding-bottom: 1.2rem;
+    color: #797878;
+}
+
+.text-main-block .btn-download {
+    border-color: #e0e0e0;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    background-color: rgb(1, 129, 129);
+    color: white;
+}
+
+.text-main-block .btn-download:hover {
+    background-color: rgb(0, 177, 177);
+}
+
+.icon_cloud-download {
+    font-family: 'ElegantIcons';
+    color: white;
+}
+
+/* Card Block */
+.center-main-block {
+    padding-top: 3rem;
+    max-width: 53rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-main-block h3 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.first-block {
+    height: 16rem;
+    border-top: 0.25rem solid rgb(1, 175, 1);
+    background-color: #fff;
+    padding: 2rem 2rem 3rem; 
+    margin-bottom: 1.5rem;
+}
+
+.first-block:hover h3 {
+    color: rgb(1, 175, 1);
+    
+}
+
+.icon-cards-plane svg {
+    height: 3.375rem;
+    width: 2.25rem;
+    color: rgb(1, 175, 1);
+}
+
+.second-block {
+    height: 16rem;
+    border-top: 0.25rem solid rgb(223, 32, 127);
+    background-color: #fff;
+    padding: 2rem 2rem 3rem; 
+    margin-bottom: 1.5rem;
+}
+
+.second-block:hover h3 {
+    color: rgb(223, 32, 127);
+}
+
+.icon-cards-puzzle .icon_puzzle {
+    font-family: 'ElegantIcons';
+    font-size: 2.25rem;
+    color: rgb(223, 32, 127);
+}
+
+.third-block {
+    height: 16rem;
+    border-top: 0.25rem solid rgb(32, 179, 223);
+    background-color: #fff;
+    padding: 2rem 2rem 3rem; 
+    margin-bottom: 1.5rem;
+}
+
+.third-block:hover h3 {
+    color: rgb(32, 179, 223);
+}
+
+.icon-cards-datareport .icon_datareport {
+    font-family: 'ElegantIcons';
+    font-size: 2.25rem;
+    color: rgb(32, 179, 223);
+}
+
+.fourth-block {
+    height: 16rem;
+    border-top: 0.25rem solid rgb(169, 32, 223);
+    background-color: #fff;
+    padding: 2rem 2rem 3rem; 
+    margin-bottom: 1.5rem;
+}
+
+.fourth-block:hover h3 {
+    color: rgb(169, 32, 223);
+}
+
+.icon-cards-lifesaver .icon_lifesaver {
+    font-family: 'ElegantIcons';
+    font-size: 2.25rem;
+    color: rgb(169, 32, 223);
+}
+
+.fifth-block {
+    height: 16rem;
+    border-top: 0.25rem solid rgb(32, 223, 143);
+    background-color: #fff;
+    padding: 2rem 2rem 3rem; 
+    margin-bottom: 1.5rem;
+}
+
+.fifth-block:hover h3 {
+    color: rgb(32, 223, 143);
+}
+
+.icon-cards-genius .icon_genius {
+    font-family: 'ElegantIcons';
+    font-size: 2.25rem;
+    color: rgb(32, 223, 143);
+}
+
+.sixth-block {
+    height: 16rem;
+    border-top: 0.25rem solid rgb(223, 118, 32);
+    background-color: #fff;
+    padding: 2rem 1.5rem 3rem; 
+    margin-bottom: 1.5rem;
+}
+
+.sixth-block:hover h3 {
+    color: rgb(223, 118, 32);
+}
+
+.first-block:hover, .second-block:hover, .third-block:hover, .fourth-block:hover, .fifth-block:hover, .sixth-block:hover {
+    background-color: #eeeeee;
+}
+
+.icon-cards-gift .icon_gift {
+    font-family: 'ElegantIcons';
+    font-size: 2.25rem;
+    color: rgb(223, 118, 32);
+}
+
+footer {
+    background-color: #797878;
+    padding: 1rem 0;
+    flex-shrink: 0;
+}
+
+.rights-block a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.rights-block a:hover {
+    text-decoration: underline;
+}
