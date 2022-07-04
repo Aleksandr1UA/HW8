@@ -96,6 +96,7 @@ header .social_twitter {
 
 .green-block {
     border-top: 0.25rem solid rgb(1, 175, 1);
+    background-color: white;
 }
 
 .green-block:hover h3 {
@@ -110,6 +111,7 @@ header .social_twitter {
 
 .pink-block {
     border-top: 0.25rem solid rgb(223, 32, 127);
+    background-color: white;
 }
 
 .pink-block:hover h3 {
@@ -124,6 +126,7 @@ header .social_twitter {
 
 .blue-block {
     border-top: 0.25rem solid rgb(32, 179, 223);
+    background-color: white;
 }
 
 .blue-block:hover h3 {
@@ -138,6 +141,7 @@ header .social_twitter {
 
 .violet-block {
     border-top: 0.25rem solid rgb(169, 32, 223);
+    background-color: white;
 }
 
 .violet-block:hover h3 {
@@ -152,6 +156,7 @@ header .social_twitter {
 
 .aqua-block {
     border-top: 0.25rem solid rgb(32, 223, 143);
+    background-color: white;
 }
 
 .aqua-block:hover h3 {
@@ -166,6 +171,7 @@ header .social_twitter {
 
 .orange-block {
     border-top: 0.25rem solid rgb(223, 118, 32);
+    background-color: white;
 }
 
 .orange-block:hover h3 {
