@@ -17,26 +17,18 @@ header {
     border-top: 0.35rem solid aqua;
 }
 
-.block-header {
-    padding: 2rem 0 1rem;
-}
-
-.block-header .icon_documents {
+header .icon_documents {
     font-family: 'ElegantIcons';
     font-size: 2rem;
     color: aqua;
 }
 
-.block-header .text-up {
+header .text-up {
     color: aqua;
 }
 
-.block-header .text-bold {
+header .text-bold {
     color: white;
-}
-
-.text-line {
-    padding-bottom: 1.5rem;
 }
 
 .text-line p {
@@ -49,11 +41,7 @@ header {
     color: rgb(211, 67, 91);
 }
 
-.block-social-twitter {
-    padding-bottom: 3rem;
-}
-
-.block-social-twitter .btn-twitter {
+header .btn-twitter {
     font-size: 0.8rem;
     color: white;
     background-color: rgb(0, 174, 255);
@@ -62,26 +50,20 @@ header {
     cursor: pointer;
 }
 
-.block-social-twitter .btn-twitter:hover {
+header .btn-twitter:hover {
     background-color: rgb(0, 156, 228);
 }
 
-.block-social-twitter .social_twitter {
+header .social_twitter {
     font-family: 'ElegantIcons';
     color: white;
 }
 
-.top-main-block h2 {
-    padding-top: 3rem;
-}
-
 .text-main-block {
-    margin: 0 auto;
     max-width: 53rem;
 }
 
 .text-main-block p {
-    padding-bottom: 1.2rem;
     color: #797878;
 }
 
@@ -104,10 +86,7 @@ header {
 
 /* Card Block */
 .center-main-block {
-    padding-top: 3rem;
     max-width: 53rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .center-main-block h3 {
@@ -115,17 +94,12 @@ header {
     padding-top: 1rem;
 }
 
-.first-block {
-    height: 16rem;
+.green-block {
     border-top: 0.25rem solid rgb(1, 175, 1);
-    background-color: #fff;
-    padding: 2rem 2rem 3rem; 
-    margin-bottom: 1.5rem;
 }
 
-.first-block:hover h3 {
+.green-block:hover h3 {
     color: rgb(1, 175, 1);
-    
 }
 
 .icon-cards-plane svg {
@@ -134,15 +108,11 @@ header {
     color: rgb(1, 175, 1);
 }
 
-.second-block {
-    height: 16rem;
+.pink-block {
     border-top: 0.25rem solid rgb(223, 32, 127);
-    background-color: #fff;
-    padding: 2rem 2rem 3rem; 
-    margin-bottom: 1.5rem;
 }
 
-.second-block:hover h3 {
+.pink-block:hover h3 {
     color: rgb(223, 32, 127);
 }
 
@@ -152,15 +122,11 @@ header {
     color: rgb(223, 32, 127);
 }
 
-.third-block {
-    height: 16rem;
+.blue-block {
     border-top: 0.25rem solid rgb(32, 179, 223);
-    background-color: #fff;
-    padding: 2rem 2rem 3rem; 
-    margin-bottom: 1.5rem;
 }
 
-.third-block:hover h3 {
+.blue-block:hover h3 {
     color: rgb(32, 179, 223);
 }
 
@@ -170,15 +136,11 @@ header {
     color: rgb(32, 179, 223);
 }
 
-.fourth-block {
-    height: 16rem;
+.violet-block {
     border-top: 0.25rem solid rgb(169, 32, 223);
-    background-color: #fff;
-    padding: 2rem 2rem 3rem; 
-    margin-bottom: 1.5rem;
 }
 
-.fourth-block:hover h3 {
+.violet-block:hover h3 {
     color: rgb(169, 32, 223);
 }
 
@@ -188,15 +150,11 @@ header {
     color: rgb(169, 32, 223);
 }
 
-.fifth-block {
-    height: 16rem;
+.aqua-block {
     border-top: 0.25rem solid rgb(32, 223, 143);
-    background-color: #fff;
-    padding: 2rem 2rem 3rem; 
-    margin-bottom: 1.5rem;
 }
 
-.fifth-block:hover h3 {
+.aqua-block:hover h3 {
     color: rgb(32, 223, 143);
 }
 
@@ -206,19 +164,15 @@ header {
     color: rgb(32, 223, 143);
 }
 
-.sixth-block {
-    height: 16rem;
+.orange-block {
     border-top: 0.25rem solid rgb(223, 118, 32);
-    background-color: #fff;
-    padding: 2rem 1.5rem 3rem; 
-    margin-bottom: 1.5rem;
 }
 
-.sixth-block:hover h3 {
+.orange-block:hover h3 {
     color: rgb(223, 118, 32);
 }
 
-.first-block:hover, .second-block:hover, .third-block:hover, .fourth-block:hover, .fifth-block:hover, .sixth-block:hover {
+.green-block:hover, .pink-block:hover, .blue-block:hover, .violet-block:hover, .aqua-block:hover, .orange-block:hover {
     background-color: #eeeeee;
 }
 
@@ -230,7 +184,6 @@ header {
 
 footer {
     background-color: #797878;
-    padding: 1rem 0;
     flex-shrink: 0;
 }
 
